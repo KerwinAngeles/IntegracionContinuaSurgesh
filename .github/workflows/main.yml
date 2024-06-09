@@ -19,4 +19,4 @@ jobs:
     - name: Build and Deploy
       env:
         SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-      run: surge --project ./ --domain webpage.surge.sh
+      run: surge --project ./ --domain kerwin.surge.sh
